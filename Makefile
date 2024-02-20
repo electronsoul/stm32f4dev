@@ -1,5 +1,5 @@
 object-files:
-	arm-none-eabi-gcc -mcpu=cortex-m0 main.c init.s -c
+	arm-none-eabi-gcc -mcpu=cortex-m4 main.c init.s -c
 firmware.elf:object-files
 	arm-none-eabi-ld -T link.ld init.o main.o -o firmware.elf
 firmware.bin:firmware.elf

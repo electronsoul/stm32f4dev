@@ -1,4 +1,5 @@
-ENTRY(reset)
+ENTRY(_reset)
+
 
 MEMORY {
   flash(rx)  : ORIGIN = 0x08000000, LENGTH = 128k

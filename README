@@ -1,0 +1,12 @@
+This file lays out the files present in the directory
+
+checkpoint.txt -- To track the progress
+firmware.bin -- Ready to flash output
+firmware.elf -- Linker output
+init.o -- Init script object
+init.s -- Init script assembly
+link.ld -- Linker script
+main.c -- C runtime file
+main.o -- C runtime object file
+Makefile -- Make file 
+README -- This file

@@ -1,0 +1,5 @@
+20 dec 22 successfully initialized c runtime
+20 dec 22 now jump to c
+first figure out systick 
+then gpio 
+then ahead
